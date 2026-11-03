@@ -1,0 +1,129 @@
+# Correzioni apportate al testo
+
+Riepilogo di tutte le modifiche fatte rispetto al PDF *libro completo da sistemare foto e indice*.
+
+## Note in rosso dell'autore
+
+- **Pag. 33, eliminare la foto centrale dello scheletro:** dalla figura sulla curva cervicale è stato tolto lo scheletro centrale, che era un doppione. Il pannello restante è stato rinumerato in "2. Inversione della lordosi (cifosi cervicale)", in modo che il titolo corrisponda alla didascalia. La striscia sul sovraccarico cervicale (smartphone) ora è una figura a sé.
+- **Pag. 77, errori comuni:** le frasi sugli errori comuni restano nel testo, mentre l'infografica dell'esercizio di attivazione del trasverso è stata tolta.
+- **Pag. 80, variante con la rotazione:** è stata tolta sia dall'immagine (riga "Variante: rotazione toracica" e dicitura "con variante" nel titolo) sia dal testo. L'esercizio ora si chiama "Gatto-cammello".
+- **Pag. 81, 2 foto da aggiungere:** in attesa delle foto, per ora l'esercizio 6 è senza immagine.
+- **Pag. 83, foto del ponte glutei di prima:** l'infografica del ponte monopodalico è stata tolta. Il testo ora rimanda alla figura del ponte glutei del Livello 1, che mostra già tutta la progressione fino alla versione monopodalica.
+- **Pag. 99, indice:** l'indice è stato rifatto da zero ed è generato in automatico, quindi titoli e numeri di pagina corrispondono sempre al testo. I capitoli "4b" e "5b" sono stati rinumerati: il libro ora va dal capitolo 1 al capitolo 8.
+
+## Foto dell'autore inserite
+
+- **Pag. 54 (gatto-cammello e posizione seduta):** sostituiscono l'infografica sugli esercizi per la zona lombare.
+- **Pag. 55 (flessori dell'anca):** 3 foto, che sostituiscono l'infografica.
+- **Pag. 56 (muscoli posteriori della coscia):** 2 foto, che sostituiscono l'infografica.
+- **Pag. 74 (antiversione):** sostituisce l'infografica sulla posizione neutra. Mancano ancora le foto della posizione neutra e della retroversione.
+- **Pag. 75 (test di apertura dell'anca e di mobilità della caviglia):** sostituiscono l'infografica dei test. Nel testo sono state aggiunte le descrizioni dei due test, che prima comparivano solo nell'immagine.
+- Le immagini degli esercizi del Livello 3 (stacco, squat, ecc.) restano quelle generate con l'intelligenza artificiale, come richiesto. Le altre infografiche restano al loro posto finché non arrivano le foto nuove.
+
+## Altre modifiche di contenuto
+
+- **Introduzione:** è stato tolto il riferimento ad appendici, glossario e bibliografia, che nel libro non esistono. Anche la descrizione degli ultimi capitoli è stata allineata al contenuto reale.
+- **Capitolo 3:** la sezione sulla sensibilizzazione centrale ripeteva quasi alla lettera quella del capitolo 4. È stata accorciata e ora rimanda al capitolo 4.
+- **Capitolo 6:** i dati sul peso della testa (5-6, 18, 27 kg) ripetevano il capitolo 3 e sono stati sostituiti da un rimando.
+- **Pag. 20:** è stata tolta la striscia sul sovraccarico cervicale, che era un doppione della figura di pag. 33.
+- **Pag. 41:** nell'immagine sui gradi di scoliosi la scritta "Deviazione scolastica" è stata corretta in "Deviazione scoliotica".
+- **Capitolo 8:** in molti esercizi le serie e ripetizioni indicate in alto non corrispondevano a quelle nel paragrafo "Come" (per esempio "3 serie da 8" e poi "ripeti 10 volte"). Ora i numeri del paragrafo "Come" sono stati allineati alla prescrizione in alto.
+- **Farmer's carry:** i nomi delle varianti erano invertiti. Il suitcase carry è la versione con un solo peso.
+- I paragrafi molto lunghi (cervicalgia posturale, lombalgia da lavoro, strategie posturali, conclusione) sono stati divisi in paragrafi più brevi.
+
+## Correzioni puntuali (prima → dopo)
+
+- ~~di un'artrofia artrosica~~ → di un osteofita artrosico
+- ~~Se quelli stimoli cambiano~~ → Se quegli stimoli cambiano
+- ~~Una persona che dorme male è sotto stress cronico, se ha un'alimentazione infiammatoria avrà~~ → Una persona che dorme male, che vive sotto stress cronico o che segue un'alimentazione infiammatoria avrà
+- ~~come la Roland-Morris Disability Questionnaire~~ → come il Roland-Morris Disability Questionnaire
+- ~~Questo dato non è stato riportato per spaventare~~ → Questi dati non sono stati riportati per spaventare
+- ~~La lordosi cervicale è la curva concava del collo, con la convessità posteriore.~~ → La lordosi cervicale è la curva del collo, con la convessità rivolta in avanti.
+- ~~come uno spugna~~ → come una spugna
+- ~~le strutture avascolarizzate più grandi~~ → le strutture avascolari più grandi
+- ~~presenta una progressivo assottigliamento~~ → presenta un progressivo assottigliamento
+- ~~I muscoli intervertrebrali più profondi~~ → I muscoli intervertebrali più profondi
+- ~~I muscoli glutei: grande gluteo, medio gluteo e piccolo gluteo, sono~~ → I muscoli glutei (grande, medio e piccolo gluteo) sono
+- ~~per i migliaia di passi~~ → per le migliaia di passi
+- ~~durante il cammino monopodalico, cioè~~ → durante l'appoggio monopodalico del cammino, cioè
+- ~~in tutte le sei direzioni~~ → in tutte e sei le direzioni
+- ~~associati a segnali di pericolo e evitati~~ → associati a segnali di pericolo ed evitati
+- ~~qualche camminata breve, qualche movimento leggero, è sempre preferibile~~ → qualche breve camminata e qualche movimento leggero sono sempre preferibili
+- ~~In sei settimane, il dolore era ridotto dell'80%.~~ → In sei settimane il dolore si era ridotto dell'80%.
+- ~~e tende le strutture posteriori~~ → e tende le strutture posteriori.
+- ~~che è esattamente il movimento in cui si verificano la maggior parte delle lesioni discali~~ → che è esattamente il movimento in cui si verifica la maggior parte delle lesioni discali
+- ~~Il nucleo polposo dei dischi intervertebrali è composto per oltre il 70% di acqua.~~ → Il nucleo polposo dei dischi intervertebrali è composto in larga parte d'acqua (oltre il 70% anche nell'adulto).
+- ~~terapia cognitivo-comportamentale e esperienze positive~~ → terapia cognitivo-comportamentale ed esperienze positive
+- ~~La stenosi lombare è la causa più frequente di dolore lombare nelle persone over 60~~ → La stenosi lombare è una delle cause più frequenti di dolore lombare nelle persone over 60
+- ~~spesso associate a leggere perdite urinarie~~ → spesso associata a leggere perdite urinarie
+- ~~e dalla deteriorazione della microarchitettura~~ → e dal deterioramento della microarchitettura
+- ~~e dipendono da fattori genetici (carenza di vitamina D) ma anche da abitudini di vita, l'apporto di calcio, l'attività fisica.~~ → e dipendono da fattori genetici, ma anche da abitudini di vita: l'apporto di calcio e di vitamina D, l'attività fisica.
+- ~~perché non produce carichi gravitazionali essendo in un fluido.~~ → perché in acqua il carico gravitazionale è quasi annullato.
+- ~~articolazioni zigapofisarie~~ → articolazioni zigoapofisarie
+- ~~Anche il nuoto e il yoga prenatale~~ → Anche il nuoto e lo yoga prenatale
+- ~~oltre la zona originalmente coinvolta~~ → oltre la zona originariamente coinvolta
+- ~~aumenta la sensitizzazione del sistema nervoso~~ → aumenta la sensibilizzazione del sistema nervoso
+- ~~praticata con app come Headspace, Calm o Insight Timer, produce benefici~~ → praticata con app come Headspace, Calm o Insight Timer, producono benefici
+- ~~Esistono anche particolari integratori come la melatonina, l’ashwagandha e il magnesio bisglicinato che aiutano a rendere il sonno il più proficuo possibile.~~ → Alcuni integratori, come la melatonina, l'ashwagandha e il magnesio bisglicinato, possono inoltre favorire un sonno più ristoratore: è bene valutarne l'uso con il proprio medico.
+- ~~e la camminata brisk, cioè a passo sostenuto, rientra~~ → e la camminata a passo sostenuto (il cosiddetto brisk walking) rientra
+- ~~opportunità di movimento che normalmente non sfruttano~~ → opportunità di movimento che normalmente non sfruttiamo
+- ~~deve permettere ai piedi di appoggiare comodamente a terra~~ → deve permettere ai piedi di appoggiarsi comodamente a terra
+- ~~Le retrazione del mento~~ → La retrazione del mento
+- ~~lo stiramento del bicipite femorale senza~~ → lo stiramento degli ischio-crurali senza
+- ~~Il cuscino del guanciale deve essere~~ → Il guanciale deve essere
+- ~~Chi dorme sul fianco ha bisogno di un guanciale più alto, importante che non sia in memory foam per evitare che la testa sprofondi, per riempire lo spazio tra la spalla e la testa.~~ → Chi dorme sul fianco ha bisogno di un guanciale più alto, che riempia lo spazio tra la spalla e la testa; meglio evitare i guanciali in memory foam troppo morbidi, nei quali la testa tende a sprofondare.
+- ~~praticala per due settimane finché diventa automatica~~ → praticala per due settimane finché non diventa automatica
+- ~~considera un percorso di rinforzamento specifico~~ → considera un percorso di rinforzo specifico
+- ~~Inoltre la tastiera e il mouse devono essere spinti in avanti sulla scrivania in modo che entrambi i gomiti siano poggiati sul tavolo per evitare sovraccarichi che porterebbero a epicondilite.~~ → Inoltre, tastiera e mouse andrebbero spostati in avanti sulla scrivania, in modo che entrambi gli avambracci possano appoggiarsi al piano: si evitano così sovraccarichi che, nel tempo, possono favorire l'epicondilite.
+- ~~un'illuminazione inadeguata porta a avvicinarsi~~ → un'illuminazione inadeguata porta ad avvicinarsi
+- ~~Il farfalla è impegnativo~~ → Lo stile a farfalla è impegnativo
+- ~~l'Hatha yoga, il Yin yoga~~ → l'Hatha yoga, lo Yin yoga
+- ~~La posizione sul bici,~~ → La posizione in bici,
+- ~~Uno studio pubblicato sul British Medical Journal nel 2006 ha dimostrato che la posizione seduta con lo schienale reclinato a 135 gradi (più rilassata di quella 'corretta') produce pressioni intradiscali inferiori rispetto alla posizione eretta a 90 gradi, considerata tradizionalmente 'ideale'.~~ → Uno studio presentato nel 2006 al congresso della Radiological Society of North America, basato sulla risonanza magnetica, ha mostrato che la posizione seduta con lo schienale reclinato a circa 135 gradi (più rilassata di quella 'corretta') sollecita i dischi lombari meno della posizione eretta a 90 gradi, tradizionalmente considerata 'ideale'.
+- ~~Queste non sono 'difetti': sono adattamenti~~ → Questi non sono 'difetti': sono adattamenti
+- ~~e spalle interne pronunciate~~ → e spalle marcatamente chiuse in avanti
+- ~~negli ultimi decenni, correlando con l'aumento~~ → negli ultimi decenni, di pari passo con l'aumento
+- ~~Solo agire su entrambi i fronti contemporaneamente porta a risultati duraturi: migliorare l'ergonomia senza rafforzare il corpo ritarda il problema, rafforzare il corpo senza modificare l'ambiente lo riduce ma non lo elimina.~~ → Solo agendo su entrambi i fronti contemporaneamente si ottengono risultati duraturi: migliorare l'ergonomia senza rafforzare il corpo rimanda il problema; rafforzare il corpo senza modificare l'ambiente lo riduce, ma non lo elimina.
+- ~~Gli esercizi fatti tre volte a settimana contano, ma sono 21 ore di allenamento contro le 147 ore restanti in cui il corpo ripete le vecchie abitudini.~~ → Gli esercizi fatti tre volte a settimana contano, ma sono circa tre ore di allenamento contro le oltre cento ore di veglia settimanali in cui il corpo ripete le vecchie abitudini.
+- ~~(un regolatore master dell'infiammazione)~~ → (uno dei principali regolatori dell'infiammazione)
+- ~~sentirsi assetati è già un segnale di disidratazione moderata~~ → sentirsi assetati è già un segnale di disidratazione lieve
+- ~~kilogrammo~~ → chilogrammo
+- ~~poi rilascia. Ripeti 10 volte.~~ → poi rilascia. Ripeti 8 volte.
+- ~~Mantieni la posizione 5-8 secondi, poi torna al suolo altrettanto lentamente, vertebra per vertebra, iniziando dall'alto della schiena. Ripeti 10-12 volte.~~ → Mantieni la posizione 2 secondi, poi torna al suolo altrettanto lentamente, vertebra per vertebra, iniziando dall'alto della schiena. Ripeti 10 volte.
+- ~~e ripeti dal lato opposto. 8-10 ripetizioni per lato.~~ → e ripeti dal lato opposto. 6 ripetizioni per lato.
+- ~~un bicchiere di acqua sulla schiena~~ → un bicchiere d'acqua sulla schiena
+- ~~inclinando anche il bacino verso il basso~~ → portando il bacino in retroversione
+- ~~partecipare al movimento. 10-15 ripetizioni lente.~~ → partecipare al movimento. 10 ripetizioni lente.
+- ~~Mantieni 2-3 secondi alla fine del range, poi torna al centro e ruota a sinistra. 10-12 ripetizioni per lato.~~ → Mantieni 2 secondi alla fine del range, poi torna al centro e ruota a sinistra. 8 ripetizioni per lato.
+- ~~con la schiena distaccata completamente dalla sedia~~ → con la schiena completamente staccata dallo schienale
+- ~~decomprime le facette articolari~~ → decomprime le faccette articolari
+- ~~Esercizio 4: Gatto-cammello con variante~~ → Esercizio 4: Gatto-cammello
+- ~~Simula ad alta fedeltà il pattern~~ → Riproduce fedelmente il pattern
+- ~~poi ripeti dal lato opposto. 6-8 ripetizioni per lato, costruisci fino a 10-12.~~ → poi ripeti dal lato opposto. 6 ripetizioni per lato; con il tempo puoi arrivare a 10.
+- ~~Tieni 5-8 secondi, poi cambia lato. 8-10 ripetizioni per lato.~~ → Tieni 2 secondi, poi riabbassa lentamente il bacino (3 secondi). 8 ripetizioni per lato.
+- ~~mantenendo la posizione 3-5 secondi. Torna a terra lentamente.~~ → mantenendo la posizione 2-3 secondi. Torna a terra lentamente.
+- ~~ma di mantenere la posizione con controllo. 8-10 ripetizioni.~~ → ma di mantenere la posizione con controllo. 10 ripetizioni.
+- ~~Versione 'swimming': dal supino,~~ → Versione 'swimming': sempre a pancia in giù,
+- ~~per il quadrato dei lombi e per l’obliquo interno ed esterno; i muscoli laterali del tronco spesso coinvolti~~ → per il quadrato dei lombi e per gli obliqui interno ed esterno, i muscoli laterali del tronco spesso coinvolti
+- ~~Inizia con 15-20 secondi per lato, costruisci fino a 40-60 secondi.~~ → Inizia con 20-30 secondi per lato e costruisci gradualmente fino a 45-60 secondi.
+- ~~Mantieni la posizione per 20-30 secondi, costruisci fino a 60 secondi.~~ → Mantieni la posizione per 30-45 secondi e costruisci gradualmente fino a 60-90 secondi.
+- ~~chi ha dolori all'anca o all'ilio-tibiale~~ → chi ha dolori all'anca o alla bandelletta ileo-tibiale
+- ~~alza lentamente il ginocchio superiore come un'apertura di un libro~~ → alza lentamente il ginocchio superiore, come quando si apre un libro
+- ~~mantieni 1-2 secondi, poi abbassa. 15-20 ripetizioni per lato.~~ → mantieni 1 secondo, poi abbassa. 12-15 ripetizioni per lato.
+- ~~ritorna su contraendo i glutei. 10-12 ripetizioni.~~ → ritorna su contraendo i glutei. 8 ripetizioni.
+- ~~spingendo i piedi verso il basso e i fianchi in avanti. 10-12 ripetizioni.~~ → spingendo i piedi verso il basso e i fianchi in avanti. 10 ripetizioni.
+- ~~Riponi il peso, cambia lato. 3-4 ripetizioni per lato.~~ → Riponi il peso e cambia lato: ogni serie comprende un tratto per lato.
+- ~~portando l'altro piede sul rialzo senza che faccia leva per spingerti su.~~ → portando l'altro piede sul rialzo senza usarlo per darti la spinta.
+- ~~Scendi controllando il movimento. 10-12 ripetizioni per lato.~~ → Scendi controllando il movimento. 10 ripetizioni per lato.
+- ~~Se succede, l'altezza del gradino è troppa o c'è~~ → Se succede, il gradino è troppo alto o c'è
+- ~~Esercizio 5: Pallof press. Serie~~ → Esercizio 5: Pallof press Serie
+- ~~Perché: esercita la stabilità del core~~ → Perché: allena la stabilità del core
+- ~~Poi torna con le mani al petto. 10-12 ripetizioni per lato.~~ → Poi torna con le mani al petto. 10 ripetizioni per lato.
+- ~~Lunedì: sessione Livello 2 completa (35-40 minuti).~~ → Lunedì: sessione Livello 2 completa (30-35 minuti).
+- ~~quando le condizioni attuali sono padroneggiante completamente~~ → quando gli esercizi attuali sono padroneggiati completamente
+- ~~il volume o l'intensità della sessione era troppo elevato~~ → il volume o l'intensità della sessione erano troppo elevati
+- ~~la banda ilio-tibiale (laterale della coscia)~~ → la bandelletta ileo-tibiale (parte laterale della coscia)
+- ~~Testa regolarmente (ogni 4-6 settimane) gli stessi test~~ → Ripeti regolarmente (ogni 4-6 settimane) gli stessi test
+- ~~consultati con un medico, un fisioterapista, un osteopata.~~ → consulta un medico, un fisioterapista, un osteopata.
+- ~~e perché l'ha scritto un Osteopata~~ → e perché l'ha scritto un osteopata
+- ~~Sono Laureato in Scienze motorie e dello Sport, Osteopata e Massoterapista~~ → Sono laureato in Scienze motorie e dello sport, sono osteopata e massoterapista
