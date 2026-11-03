@@ -7,18 +7,33 @@ Riepilogo di tutte le modifiche fatte rispetto al PDF *libro completo da sistema
 - **Pag. 33, eliminare la foto centrale dello scheletro:** dalla figura sulla curva cervicale è stato tolto lo scheletro centrale, che era un doppione. Il pannello restante è stato rinumerato in "2. Inversione della lordosi (cifosi cervicale)", in modo che il titolo corrisponda alla didascalia. La striscia sul sovraccarico cervicale (smartphone) ora è una figura a sé.
 - **Pag. 77, errori comuni:** le frasi sugli errori comuni restano nel testo, mentre l'infografica dell'esercizio di attivazione del trasverso è stata tolta.
 - **Pag. 80, variante con la rotazione:** è stata tolta sia dall'immagine (riga "Variante: rotazione toracica" e dicitura "con variante" nel titolo) sia dal testo. L'esercizio ora si chiama "Gatto-cammello".
-- **Pag. 81, 2 foto da aggiungere:** in attesa delle foto, per ora l'esercizio 6 è senza immagine.
+- **Pag. 81, 2 foto da aggiungere:** inserite le foto "allungamento estensori lombari" (partenza e ginocchia al petto).
 - **Pag. 83, foto del ponte glutei di prima:** l'infografica del ponte monopodalico è stata tolta. Il testo ora rimanda alla figura del ponte glutei del Livello 1, che mostra già tutta la progressione fino alla versione monopodalica.
 - **Pag. 99, indice:** l'indice è stato rifatto da zero ed è generato in automatico, quindi titoli e numeri di pagina corrispondono sempre al testo. I capitoli "4b" e "5b" sono stati rinumerati: il libro ora va dal capitolo 1 al capitolo 8.
 
 ## Foto dell'autore inserite
 
-- **Pag. 54 (gatto-cammello e posizione seduta):** sostituiscono l'infografica sugli esercizi per la zona lombare.
-- **Pag. 55 (flessori dell'anca):** 3 foto, che sostituiscono l'infografica.
-- **Pag. 56 (muscoli posteriori della coscia):** 2 foto, che sostituiscono l'infografica.
-- **Pag. 74 (antiversione):** sostituisce l'infografica sulla posizione neutra. Mancano ancora le foto della posizione neutra e della retroversione.
-- **Pag. 75 (test di apertura dell'anca e di mobilità della caviglia):** sostituiscono l'infografica dei test. Nel testo sono state aggiunte le descrizioni dei due test, che prima comparivano solo nell'immagine.
-- Le immagini degli esercizi del Livello 3 (stacco, squat, ecc.) restano quelle generate con l'intelligenza artificiale, come richiesto. Le altre infografiche restano al loro posto finché non arrivano le foto nuove.
+Le foto dell'autore sostituiscono le infografiche alle pagine seguenti (numeri del PDF originale):
+
+- **Pag. 52:** postazione di lavoro.
+- **Pag. 54:** allungamento degli estensori in posizione seduta, rotazione lombosacrale in decubito (3 foto) e gatto-cammello.
+- **Pag. 55:** stretching dei flessori dell'anca (3 foto).
+- **Pag. 56:** stretching dei muscoli posteriori della coscia (2 foto).
+- **Pag. 74:** posizione neutra (antiversione, neutra, retroversione).
+- **Pag. 75:** test di mobilità (flessione, estensione, rotazione, apertura dell'anca, mobilità della caviglia). Le descrizioni dei test di estensione e rotazione sono state riscritte per corrispondere alle foto (estensione da prono, rotazione in quadrupedia), mentre la versione precedente li descriveva in piedi.
+- **Pag. 79:** bird dog. Le foto sono divise in tre gruppi: esecuzione, errori comuni e progressione con rowing.
+- **Pag. 81:** rotazione toracica seduta, con la progressione a terra, e allungamento degli estensori lombari (esercizio 6).
+- **Pag. 82:** dead bug.
+- **Pag. 84:** superman, con le versioni facilitate (solo braccia o solo gambe).
+- **Pag. 85:** plank laterale, con la versione sulle ginocchia e le progressioni.
+- **Pag. 86-87:** wall sit e clamshell, con e senza elastico.
+
+Restano per scelta le immagini fatte con l'intelligenza artificiale:
+
+- gatto-cammello del capitolo 8 (pag. 80, da cui è stata tolta la variante con rotazione);
+- ponte glutei;
+- esercizi del Livello 3;
+- le infografiche dei capitoli teorici.
 
 ## Altre modifiche di contenuto
 
@@ -127,3 +142,6 @@ Riepilogo di tutte le modifiche fatte rispetto al PDF *libro completo da sistema
 - ~~consultati con un medico, un fisioterapista, un osteopata.~~ → consulta un medico, un fisioterapista, un osteopata.
 - ~~e perché l'ha scritto un Osteopata~~ → e perché l'ha scritto un osteopata
 - ~~Sono Laureato in Scienze motorie e dello Sport, Osteopata e Massoterapista~~ → Sono laureato in Scienze motorie e dello sport, sono osteopata e massoterapista
+- ~~Dove arrivano le mani? Alle cosce (mobilità ridotta), alle ginocchia (mobilità nella norma), sotto le ginocchia (mobilità buona)?~~ → Dove arrivano le mani? Alle cosce (mobilità ridotta), alle ginocchia (mobilità nella norma), sotto le ginocchia o fino alle punte dei piedi (mobilità buona)?
+- ~~Estensione: in piedi, con le mani sui fianchi, inclina dolcemente la colonna all'indietro. Senti rigidità? Dolore? Limitazione? Nota dove si concentra la sensazione.~~ → Estensione: sdraiati a pancia in giù con le mani sotto le spalle e solleva il busto distendendo le braccia, mantenendo il bacino appoggiato a terra. Riesci a distendere completamente i gomiti? Senti rigidità, dolore o limitazione? Nota dove si concentra la sensazione.
+- ~~Rotazione: in piedi con i piedi fissi a terra, ruota il tronco a destra e poi a sinistra. Riesci a vedere il muro dietro di te? La rotazione è simmetrica tra destra e sinistra?~~ → Rotazione: in quadrupedia, porta una mano dietro la testa e ruota il busto portando il gomito verso il soffitto, poi ripeti dall'altro lato. Il braccio arriva in linea con il soffitto? La rotazione è simmetrica tra destra e sinistra?

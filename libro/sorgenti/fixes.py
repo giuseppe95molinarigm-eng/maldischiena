@@ -104,3 +104,8 @@ FIX+=[
 ("e perché l'ha scritto un Osteopata","e perché l'ha scritto un osteopata"),
 ("Sono Laureato in Scienze motorie e dello Sport, Osteopata e Massoterapista","Sono laureato in Scienze motorie e dello sport, sono osteopata e massoterapista"),
 ]
+FIX+=[
+("Dove arrivano le mani? Alle cosce (mobilità ridotta), alle ginocchia (mobilità nella norma), sotto le ginocchia (mobilità buona)?","Dove arrivano le mani? Alle cosce (mobilità ridotta), alle ginocchia (mobilità nella norma), sotto le ginocchia o fino alle punte dei piedi (mobilità buona)?"),
+("Estensione: in piedi, con le mani sui fianchi, inclina dolcemente la colonna all'indietro. Senti rigidità? Dolore? Limitazione? Nota dove si concentra la sensazione.","Estensione: sdraiati a pancia in giù con le mani sotto le spalle e solleva il busto distendendo le braccia, mantenendo il bacino appoggiato a terra. Riesci a distendere completamente i gomiti? Senti rigidità, dolore o limitazione? Nota dove si concentra la sensazione."),
+("Rotazione: in piedi con i piedi fissi a terra, ruota il tronco a destra e poi a sinistra. Riesci a vedere il muro dietro di te? La rotazione è simmetrica tra destra e sinistra?","Rotazione: in quadrupedia, porta una mano dietro la testa e ruota il busto portando il gomito verso il soffitto, poi ripeti dall'altro lato. Il braccio arriva in linea con il soffitto? La rotazione è simmetrica tra destra e sinistra?"),
+]

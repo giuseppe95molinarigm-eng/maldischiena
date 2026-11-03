@@ -47,7 +47,7 @@ FIG = {
  "p41_1": ("p41_scoliosi.jpg", "I gradi della scoliosi, dalla colonna in asse alle deviazioni più severe."),
  "p41_2": None,
  "p42_1": ("p42_1.jpg", "Osso sano e osso osteoporotico; la MOC è l'esame per misurare la densità ossea."),
- "p52_1": ("p52_1.jpg", "La postazione di lavoro ergonomica."),
+ "p52_1": "PHOTO52",
  "p54_1": "PHOTO54",
  "p55_1": "PHOTO55",
  "p55_2": ("p55_2.jpg", "Retrazione del mento (chin tuck): posizione di partenza e allungamento.", "narrow"),
@@ -64,15 +64,15 @@ FIG = {
  "p76_1": ("p76_1.jpg", "I test di forza funzionale per i muscoli chiave della schiena."),
  "p77_1": None,  # richiesto dall'autore: togliere le foto degli errori comuni
  "p78_1": ("p78_1.jpg", "Esercizio 2 – Ponte glutei base, con la progressione fino alla versione monopodalica."),
- "p79_1": ("p79_1.jpg", "Esercizio 3 – Bird dog."),
+ "p79_1": "PHOTO79",
  "p80_1": ("p80_gatto.jpg", "Esercizio 4 – Gatto-cammello: le fasi del gatto e del cammello."),
- "p81_1": ("p81_1.jpg", "Esercizio 5 – Rotazione toracica seduta."),
- "p82_1": ("p82_1.jpg", "Livello 2, esercizio 1 – Dead bug."),
+ "p81_1": "PHOTO81",
+ "p82_1": "PHOTO82",
  "p83_1": None,  # richiesto dall'autore: si usa la figura del ponte glutei del Livello 1
- "p84_1": ("p84_1.jpg", "Livello 2, esercizio 3 – Superman (estensione da prono)."),
- "p85_1": ("p85_1.jpg", "Livello 2, esercizio 4 – Plank laterale."),
- "p86_1": ("p86_1.jpg", "Livello 2, esercizio 5 – Wall sit (squat isometrico al muro)."),
- "p87_1": ("p87_1.jpg", "Livello 2, esercizio 6 – Clamshell (apertura del guscio)."),
+ "p84_1": "PHOTO84",
+ "p85_1": "PHOTO85",
+ "p86_1": "PHOTO86",
+ "p87_1": "PHOTO87",
  "p88_1": ("p88_1.jpg", "Livello 3, esercizio 1 – Stacco da terra con varianti."),
  "p89_1": ("p89_1.jpg", "Livello 3, esercizio 2 – Squat goblet."),
  "p90_1": ("p90_1.jpg", "Livello 3, esercizio 3 – Farmer's carry."),
@@ -81,11 +81,17 @@ FIG = {
  "p95_1": ("p95_1.jpg", "Il foam rolling e l'auto-rilascio miofasciale."),
 }
 PHOTOS = {
+ "PHOTO52": [
+   ("La postazione di lavoro: piedi appoggiati a terra, schiena sostenuta dallo schienale, avambracci appoggiati e schermo davanti agli occhi.",
+    [("nf33.jpg", "Postazione di lavoro")]),
+ ],
  "PHOTO54": [
-   ("Gatto-cammello: fase del gatto (schiena arrotondata verso il soffitto) e fase del cammello (schiena inarcata verso il pavimento).",
-    [("foto00.jpg", "Gatto"), ("foto01.jpg", "Cammello")]),
    ("Allungamento degli estensori lombari in posizione seduta: posizione di partenza e ginocchio portato al petto.",
     [("foto02.jpg", "Partenza"), ("foto03.jpg", "Ginocchio al petto")]),
+   ("Rotazione lombosacrale in decubito: posizione di partenza e ginocchia lasciate cadere da un lato e dall'altro, con le spalle a terra.",
+    [("nf36.jpg", "Partenza"), ("nf35.jpg", "Rotazione"), ("nf34.jpg", "Lato opposto")]),
+   ("Gatto-cammello: fase del gatto (schiena arrotondata verso il soffitto) e fase del cammello (schiena inarcata verso il pavimento).",
+    [("nfo00.jpg", "Gatto"), ("nfo01.jpg", "Cammello")]),
  ],
  "PHOTO55": [
    ("Stretching dei flessori dell'anca in affondo: posizione di partenza, allungamento e variante con il braccio sollevato.",
@@ -96,12 +102,58 @@ PHOTOS = {
     [("foto07.jpg", "Partenza"), ("foto08.jpg", "Allungamento")]),
  ],
  "PHOTO74": [
-   ("Ricerca della posizione neutra in posizione supina: il bacino in antiversione, con l'arco lombare accentuato.",
-    [("foto11.jpg", "Antiversione")]),
+   ("Ricerca della posizione neutra in posizione supina: dalla massima antiversione (arco lombare accentuato) alla massima retroversione (lombare appiattita a terra); la posizione neutra è circa a metà.",
+    [("nfo11.jpg", "Antiversione"), ("nf37.jpg", "Neutra"), ("nf38.jpg", "Retroversione")]),
  ],
  "PHOTO75": [
-   ("Test di mobilità di base: apertura dell'anca e mobilità della caviglia.",
-    [("foto09.jpg", "Apertura dell'anca"), ("foto10.jpg", "Mobilità della caviglia")]),
+   ("Test di mobilità di base: flessione in avanti, apertura dell'anca e mobilità della caviglia.",
+    [("nf40.jpg", "Flessione in avanti"), ("foto09.jpg", "Apertura dell'anca"), ("foto10.jpg", "Mobilità della caviglia")]),
+   ("Test di mobilità di base: estensione lombare da prono e rotazione toracica in quadrupedia.",
+    [("nf39.jpg", "Estensione"), ("nf41.jpg", "Rotazione")]),
+ ],
+ "PHOTO79": [
+   ("Esercizio 3 – Bird dog: posizione di partenza in quadrupedia ed estensione del braccio e della gamba opposti.",
+    [("nf06.jpg", "Partenza"), ("nf05.jpg", "Estensione")]),
+   ("Bird dog, errori comuni: gamba sollevata troppo in alto, con estensione lombare eccessiva e rotazione del bacino.",
+    [("nf03.jpg", "Errore"), ("nf07.jpg", "Errore")]),
+   ("Bird dog, progressione con rowing: il gomito va verso il ginocchio senza appoggiare a terra, poi braccio e gamba si riestendono.",
+    [("nf00.jpg", "Gomito al ginocchio"), ("nf01.jpg", "Riestensione")]),
+ ],
+ "PHOTO81": [
+   ("Esercizio 5 – Rotazione toracica seduta: posizione di partenza e rotazione verso i due lati.",
+    [("nf13.jpg", "Partenza"), ("nf11.jpg", "Rotazione"), ("nf12.jpg", "Lato opposto")]),
+   ("Rotazione toracica, progressione: seduti a terra a gambe incrociate e poi a gambe estese.",
+    [("nf09.jpg", "Gambe incrociate"), ("nf14.jpg", "Gambe estese")]),
+ ],
+ "PHOTO_ES6": [
+   ("Esercizio 6 – Allungamento degli estensori lombari: posizione di partenza e ginocchia portate al petto.",
+    [("nf42.jpg", "Partenza"), ("nf43.jpg", "Ginocchia al petto")]),
+ ],
+ "PHOTO82": [
+   ("Livello 2, esercizio 1 – Dead bug: posizione di partenza ed estensione del braccio e della gamba opposti, alternando i lati.",
+    [("nf44.jpg", "Partenza"), ("nf45.jpg", "Estensione"), ("nf47.jpg", "Lato opposto")]),
+ ],
+ "PHOTO84": [
+   ("Livello 2, esercizio 3 – Superman: posizione di partenza e sollevamento contemporaneo di braccia e gambe.",
+    [("nf20.jpg", "Partenza"), ("nf15.jpg", "Superman")]),
+   ("Superman, versioni facilitate: sollevamento delle sole braccia o delle sole gambe.",
+    [("nf18.jpg", "Solo braccia"), ("nf17.jpg", "Solo gambe")]),
+ ],
+ "PHOTO85": [
+   ("Livello 2, esercizio 4 – Plank laterale: posizione di partenza e sollevamento del bacino.",
+    [("nf25.jpg", "Partenza"), ("nf24.jpg", "Plank laterale")]),
+   ("Plank laterale: versione facilitata sulle ginocchia e progressioni con sollevamento della gamba o del braccio.",
+    [("nf23.jpg", "Sulle ginocchia"), ("nf21.jpg", "Gamba sollevata"), ("nf22.jpg", "Braccio al soffitto")]),
+ ],
+ "PHOTO86": [
+   ("Livello 2, esercizio 5 – Wall sit: schiena appoggiata al muro, poi discesa fino a ginocchia a circa 90 gradi.",
+    [("nf27.jpg", "Partenza"), ("nf26.jpg", "Wall sit")]),
+ ],
+ "PHOTO87": [
+   ("Livello 2, esercizio 6 – Clamshell: posizione di partenza e apertura del ginocchio superiore.",
+    [("nf31.jpg", "Partenza"), ("nf30.jpg", "Apertura")]),
+   ("Clamshell, progressione con elastico sopra le ginocchia.",
+    [("nf28.jpg", "Partenza"), ("nf32.jpg", "Apertura")]),
  ],
 }
 
@@ -160,7 +212,7 @@ blocks[k][1] = blocks[k][1].replace(
     "Come abbiamo visto nel capitolo 3, già a 30 gradi di flessione il carico sulla colonna cervicale si triplica rispetto alla posizione neutra, e a 60 gradi arriva a circa 27 kg.")
 
 # Ch.8 test di mobilità: add the two tests illustrated by the author's photos
-k = find("Rotazione: in piedi con i piedi fissi a terra")
+k = find("Rotazione: in quadrupedia, porta una mano")
 blocks.insert(k + 1, ["P", "Apertura dell'anca: in affondo, con il ginocchio posteriore appoggiato a terra e le mani sui fianchi, porta il bacino in avanti mantenendo il busto eretto. Senti un allungamento nella parte anteriore dell'anca? È simile tra i due lati?", 75])
 blocks.insert(k + 2, ["P", "Mobilità della caviglia: nella stessa posizione di affondo, porta il ginocchio anteriore in avanti, oltre la punta del piede, mantenendo il tallone ben appoggiato a terra. Il tallone si solleva presto? Il movimento è uguale a destra e a sinistra?", 75])
 
@@ -169,6 +221,10 @@ ki = [n for n, b in enumerate(blocks) if b[0] == "IMG" and b[1] == "p75_1"][0]
 img = blocks.pop(ki)
 k = find("Mobilità della caviglia:")
 blocks.insert(k + 1, img)
+
+k = find("Variante: esegui l'allungamento con una sola gamba")
+blocks.insert(k + 1, ["IMG", "es6", 81])
+FIG["es6"] = "PHOTO_ES6"
 
 # Ch.8 Esercizio 4: variant with rotation removed at the author's request
 k = find("Variante: aggiungi una rotazione toracica.")
@@ -246,8 +302,11 @@ def photo_html(cap, items):
     figno += 1
     lab = f"Figura {chap}.{figno}"
     n = len(items)
+    from PIL import Image as _I
+    w, h = _I.open(os.path.join(W, "fig", items[0][0])).size
+    land = " land" if w > h else ""
     cells = "".join(f'<div class="ph"><img src="fig/{s}" alt=""><span>{esc(t)}</span></div>' for s, t in items)
-    return (f'<figure class="photos n{n}"><div class="grid">{cells}</div><figcaption>'
+    return (f'<figure class="photos n{n}{land}"><div class="grid">{cells}</div><figcaption>'
             f'<span class="fignum">{lab}</span> {esc(cap)}</figcaption></figure>')
 
 for tag, txt, pg in blocks:
