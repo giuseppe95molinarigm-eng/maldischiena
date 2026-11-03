@@ -285,17 +285,19 @@ def leadin(s):
 
 chap = 0
 figno = 0
+secno = 0
 toc = []
 body = []
 sec_id = 0
 in_chapter = False
+need_dropcap = False
 
 def fig_html(src, cap, cls=""):
     global figno
     figno += 1
     lab = f"Figura {chap}.{figno}" if chap else f"Figura {figno}"
     return (f'<figure class="{cls}"><img src="fig/{src}" alt=""><figcaption>'
-            f'<span class="fignum">{lab}</span> {esc(cap)}</figcaption></figure>')
+            f'<span class="fignum">{lab}</span>{esc(cap)}</figcaption></figure>')
 
 def photo_html(cap, items):
     global figno
@@ -307,65 +309,109 @@ def photo_html(cap, items):
     land = " land" if w > h else ""
     cells = "".join(f'<div class="ph"><img src="fig/{s}" alt=""><span>{esc(t)}</span></div>' for s, t in items)
     return (f'<figure class="photos n{n}{land}"><div class="grid">{cells}</div><figcaption>'
-            f'<span class="fignum">{lab}</span> {esc(cap)}</figcaption></figure>')
+            f'<span class="fignum">{lab}</span>{esc(cap)}</figcaption></figure>')
 
+KEYLABELS = {"Dato chiave": "Dato chiave", "Ricerca chiave": "Ricerca chiave", "Test semplice per i glutei": "Prova anche tu"}
+
+header_open = False
 for tag, txt, pg in blocks:
+    if header_open and tag != "LEAD":
+        body.append("</header>"); header_open = False
     if tag == "H1":
         if in_chapter:
             body.append("</section>")
         m = re.match(r"Capitolo (\d+) — (.+)", txt)
         sec_id += 1
         sid = f"s{sec_id}"
+        secno = 0
         if m:
             chap = int(m.group(1)); figno = 0
             title = m.group(2)
-            body.append(f'<section class="chapter"><div class="chapnum">Capitolo {chap}</div>'
-                        f'<h1 id="{sid}">{esc(title)}</h1>')
-            toc.append(("ch", f"Capitolo {chap}", title, sid))
+            body.append(f'<section class="chapter"><header class="opener"><div class="bignum">{chap:02d}</div>'
+                        f'<div class="kicker">Capitolo {chap}</div><h1 id="{sid}">{esc(title)}</h1>')
+            toc.append(("ch", f"{chap:02d}", title, sid))
         else:
             chap = 0 if txt == "Introduzione" else chap
-            body.append(f'<section class="chapter unnumbered"><h1 id="{sid}">{esc(txt)}</h1>')
+            body.append(f'<section class="chapter unnumbered"><header class="opener"><div class="bignum"></div>'
+                        f'<div class="kicker">{"Prima di iniziare" if txt == "Introduzione" else "Per concludere"}</div>'
+                        f'<h1 id="{sid}">{esc(txt)}</h1>')
             toc.append(("ch", "", txt, sid))
         in_chapter = True
+        need_dropcap = True
+        header_open = True
         continue
     if tag == "LEAD":
         if txt.startswith("Una schiena sana non è assenza"):
-            body.append(f'<p class="closing">{esc(txt)}</p>')
+            body.append(f'<div class="closing"><p>{esc(txt)}</p></div>')
         else:
             body.append(f'<p class="chapter-lead">{esc(txt)}</p>')
+            if header_open:
+                body.append("</header>"); header_open = False
         continue
     if tag == "H2":
         sec_id += 1; sid = f"s{sec_id}"
-        body.append(f'<h2 id="{sid}">{esc(txt)}</h2>')
-        toc.append(("h2", "", txt, sid))
+        numbered = chap > 0 and not (txt.startswith("Quello che hai") or txt.startswith("Cosa fare") or txt.startswith("Una parola finale"))
+        lm = re.match(r"Livello (\d): (.+)", txt)
+        if lm:
+            secno += 1
+            body.append(f'<h2 id="{sid}" class="level"><span class="lvl">Livello {lm.group(1)}</span>'
+                        f'<span class="lvl-title">{esc(lm.group(2))}</span></h2>')
+            toc.append(("h2", f"{chap}.{secno}", txt, sid))
+            continue
+        if numbered:
+            secno += 1
+            num = f"{chap}.{secno}"
+            body.append(f'<h2 id="{sid}"><span class="secnum">{num}</span>{esc(txt)}</h2>')
+            toc.append(("h2", num, txt, sid))
+        else:
+            body.append(f'<h2 id="{sid}">{esc(txt)}</h2>')
+            toc.append(("h2", "", txt, sid))
         continue
-    m = re.match(r"(Esercizio \d+: .+?) Serie e ripetizioni: (.*)$", txt)
+    m = re.match(r"Esercizio (\d+): (.+?) Serie e ripetizioni: (.*)$", txt)
     if m:
-        t = m.group(1).rstrip(". ")
-        body.append(f'<h3 class="exercise">{esc(t)}</h3>')
-        body.append(f'<p class="prescription"><span class="lead-in">Serie e ripetizioni:</span> {esc(m.group(2))}</p>')
+        t = m.group(2).rstrip(". ")
+        body.append(f'<div class="exercise"><div class="ex-head"><span class="ex-num">Esercizio {m.group(1)}</span>'
+                    f'<span class="ex-title">{esc(t)}</span></div>'
+                    f'<div class="ex-rx"><span class="rx-label">Serie e ripetizioni</span>{esc(m.group(3))}</div></div>')
         continue
     if tag == "H3":
         body.append(f"<h3>{esc(txt)}</h3>")
         continue
     if tag == "P":
         if txt.startswith("Durata consigliata"):
-            body.append(f'<p class="duration">{esc(txt)}</p>'); continue
+            d = txt.split(":", 1)
+            body.append(f'<p class="duration"><span>{esc(d[0])}</span>{esc(d[1])}</p>'); continue
         if txt == "Dott. Gianluca Santambrogio":
             body.append(f'<p class="signature">{esc(txt)}</p>'); continue
-        body.append(f"<p>{leadin(esc(txt))}</p>")
+        h = leadin(esc(txt))
+        if 'class="lead-in"' in h:
+            cls = ' class="li"'
+        else:
+            cls = ""
+            if need_dropcap:
+                cls = ' class="dropcap"'
+                m2 = re.match(r"([A-ZÈÀ])(’)?(\S*)(.*)$", h, re.S)
+                if m2:
+                    h = f'<span class="dc">{m2.group(1)}</span>{m2.group(2) or ""}{m2.group(3)}{m2.group(4)}'
+                need_dropcap = False
+        body.append(f"<p{cls}>{h}</p>")
         continue
     if tag in ("BLUE", "ITAL"):
         body.append(f'<blockquote class="pull"><p>{esc(txt)}</p></blockquote>')
         continue
     if tag == "GREEN":
-        body.append(f'<aside class="keybox"><p>{leadin(esc(txt))}</p></aside>')
+        label = "Da ricordare"
+        for k, v in KEYLABELS.items():
+            if txt.startswith(k + ":"):
+                label = v; txt = txt[len(k) + 1:].strip(); txt = txt[0].upper() + txt[1:]
+        body.append(f'<aside class="keybox"><div class="box-label">{label}</div><p>{esc(txt)}</p></aside>')
         continue
     if tag == "GREY":
         m = re.match(r"CASO CLINICO — (.+?\d+ anni, [^A-Z]+?)(?: ([A-Z].*))?$", txt)
         who, story = m.group(1).strip(), (m.group(2) or "")
-        body.append(f'<aside class="case"><div class="case-label">Caso clinico</div>'
-                    f'<div class="case-who">{esc(who)}</div><p>{esc(story)}</p></aside>')
+        name, rest = who.split(",", 1)
+        body.append(f'<aside class="case"><div class="box-label">Caso clinico</div>'
+                    f'<div class="case-who"><strong>{esc(name)}</strong>,{esc(rest)}</div><p>{esc(story)}</p></aside>')
         continue
     if tag == "IMG":
         f = FIG[txt]
@@ -387,10 +433,11 @@ body.append("</section>")
 toc_html = []
 for kind, num, title, sid in toc:
     if kind == "ch":
-        lab = f'<span class="tnum">{num}</span>' if num else ""
+        lab = f'<span class="tnum">{num}</span>' if num else '<span class="tnum"></span>'
         toc_html.append(f'<li class="toc-ch"><a href="#{sid}">{lab}<span class="tt">{esc(title)}</span></a></li>')
     else:
-        toc_html.append(f'<li class="toc-h2"><a href="#{sid}"><span class="tt">{esc(title)}</span></a></li>')
+        lab = f'<span class="snum">{num}</span>' if num else '<span class="snum"></span>'
+        toc_html.append(f'<li class="toc-h2"><a href="#{sid}">{lab}<span class="tt">{esc(title)}</span></a></li>')
 
 tpl = open(os.path.join(W, "template.html")).read()
 doc = tpl.replace("{{TOC}}", "\n".join(toc_html)).replace("{{BODY}}", "\n".join(body))
